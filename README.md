@@ -21,7 +21,7 @@ In this challenge, you will be building a choose your own adventure game like Ba
 `bool buttonShouldBeVisible(){...}` 
 method can be made into a single line by 
 `bool buttonShouldBeVisible() => _storyNumber < 3;`
-- `void nextStory(int choiceNumber){if clauses...} can be effectively replaced by using maps as follows:
+- `void nextStory(int choiceNumber){if clauses...}` can be effectively replaced by using maps as follows:
 ```
   Map<int, Map<int, int>> choices = {
     0: {1: 2, 2: 1},
